@@ -474,7 +474,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - Perl
 - PDL
 - Perl6
-- PHP
+- ~~PHP~~
 - Phrogram
 - Pico
 - Picolisp
