@@ -1,995 +1,698 @@
 # Rock, Paper, Scissors
-
-Creating a game in a different programming language, everyday.
-
-- !!!Batch
-- !!SuperPrime
-- ???
-- $tonePits
-- (())
-- ():;+-#?!
-- ()
-- *brainfuck
-- *W
-- --C-=C-C--
-- .box
-- .Gertrude
-- .m@dpr'a'prozessor
-- .mOdMoDwOrM
-- .yacuabll
-- ///
-- 0(nop^)
-- 01_
-- 0815
-- 0x29A
-- 0x29C
-- 1+
-- 123
-- 1337
-- 1cnis
-- 1L
-- 1mpr0mp2
-- 2-ill
-- 2050706
-- 23
-- 2B
-- 2D-Reverse
-- 2DP
-- 2iota
-- 2L
-- 3code
-- 3D
-- 3switchBF
-- 4
-- 4DL
-- 5-logic
-- 5command
-- 6ix
-- 96
-- :≠
-- ><>
-- @tention!
-- @text
-- []
-- \BV
-- ]
-- ~
-- ~#
-- ~-~!
-- ~ATH
-- ~English
-- µCurse
-- AAAAAAAAAAAAAA!!!!
-- Aargh!
+ 
+Creating a rock, paper, scissors game in a different programming language, everyday.
+ 
+- A# .NET
+- A# (Axiom)
+- A-0 System
+- A+
+- A++
+- ABAP
 - ABC
-- ABCDXYZ
-- ABCs
-- ACIDIC
-- A:;
-- ACRONYM
-- Addleq
-- ADJUST
-- Aeolbonn
-- Aeon
-- AFTL
-- Agony
-- Aheui
-- Alacrity
-- ALAGUF
-- Alchemy
-- Ale
-- Alight
-- ALPACA
-- AlPhAbEt
-- AlphaBeta
-- Alphabetti spaghetti
-- ALPL
-- /ˈæmbiːɛf/
-- Amelia
-- And
-- Andrei Machine 9000
-- Anemone
-- Another Pi Language
-- Ante
-- AnyPL
-- A0A0
-- A programming language is an artificial language designed to communicate instructions to a machine, particularly a computer.
-- Arbol
-- ARCAL
-- Archway
-- Argh!
-- Arrow
-- asdf
-- Ashtol
-- Atom
-- AttoASM
-- ATZ
-- Aubergine
-- Auo
-- Aura
-- AutoMouse
-- Ax
-- axo
-- az
-- BackFlip
-- Backtracking INTERCAL
-- Bag
-- BAK
-- BAM128
-- BANCStar
-- Bantas
-- Barely
-- Basic Input/Output Commands
-- BCDFuck
-- BDAMD
-- Beam
-- Bear Food
-- Beatnik
-- Befalse
-- Befreak
-- Befunge
-- Befunge/index.php
-- Befunk
-- Benul
-- BestFriends.js
-- beta-Juliet
-- Betterave
-- Beturing
-- BFEnet
-- BFI
-- BF Joust
-- BFM
-- BF-PDA
-- BF-RLE
-- BF-SC
-- Billiard ball machine
-- Binary combinatory logic
-- Binaryfuck
-- Binary lambda calculus
-- Binodu
-- BIO
-- Biota
-- Bipoint
-- BIT
-- BitBitJump
-- BitChanger
-- BitChip
-- BitFlip
-- Bitfuck
-- Bitoven
-- BiTrax
-- Bitwise Cyclic Tag
-- Black
-- Blank
-- Blind
-- Bloop
-- Bloux
-- Boat
-- BogusForth
-- Boolfuck
-- Boxy
-- Bracket Hax
-- brainbool
-- BrainClub
-- Braincopter
-- BrainCurses
-- Brainfact
-- Brainfork
-- brainfuck
-- Brainfuck++
-- Brainfuck--
-- BrainfuckXT
-- Brainfuck/w/index.php?title=Talk:Brainfuck/index.php
-- brainfunct
-- BrainFunge2
-- Brainhype
-- Brainloller
-- Brainlove
-- Brains
-- Brainscrambler
-- BrainSpace 1.0
-- Brainstack
-- Brainstuck
-- Braintrust
-- Braintwist
-- Braktif
-- Branch
-- BRB
-- Brook
-- Bruijndejx
-- BRZRK
-- BSM
-- B-tapemark
-- Bub
-- Bubble
-- Bullfrog
-- Burlesque
-- Burro
-- ByteByteJump
-- Bytemap
-- BytePusher
-- Byter
-- Byte Syze
-- Cabra
-- Calculon
-- CalScript
-- Camouflage
-- CaneCode
-- Capuirequiem
-- Cardinal
-- Carriage
-- Catch
-- cbrain
-- Cellbrain
-- Celum
-- Cfluviurrh
-- Challenger
-- Checkout
+- ABC ALGOL
+- ABLE
+- ABSET
+- ABSYS
+- ACC
+- Accent
+- Ace DASL
+- ACL2
+- ACT-III
+- Action!
+- ActionScript
+- Ada
+- Adenine
+- Agda
+- Agilent VEE
+- Agora
+- AIMMS
+- Alef
+- ALF
+- ALGOL 58
+- ALGOL 60
+- ALGOL 68
+- ALGOL W
+- Alice
+- Alma-0
+- AmbientTalk
+- Amiga E
+- AMOS
+- AMPL
+- Apex (Salesforce.com)
+- APL
+- App Inventor for Android's visual block language
+- AppleScript
+- Arc
+- ARexx
+- Argus
+- AspectJ
+- Assembly language
+- ATS
+- Ateji PX
+- AutoHotkey
+- Autocoder
+- AutoIt
+- AutoLISP / Visual LISP
+- Averest
+- AWK
+- Axum
+- B
+- Babbage
+- Bash
+- BASIC
+- bc
+- BCPL
+- BeanShell
+- Batch (Windows/Dos)
+- Bertrand
+- BETA
+- Bigwig
+- Bistro
+- BitC
+- BLISS
+- Blue
+- Boo
+- Boomerang
+- Bourne shell (including bash and ksh)
+- BREW
+- BPEL
+- C
+- C--
+- C++ - ISO/IEC 14882
+- C# - ISO/IEC 23270
+- C/AL
+- Caché ObjectScript
+- C Shell
+- Caml
+- Cayenne
+- CDuce
+- Cecil
+- Cel
+- Cesil
+- Ceylon
+- CFEngine
+- CFML
+- Cg
+- Ch
+- Chapel
+- CHAIN
+- Charity
+- Charm
 - Chef
-- Chicken
-- Child
-- Choon
-- Churro
-- Circuit Diagram
-- Circute
-- CJam
-- CLC-INTERCAL
-- ClearBF
-- Clem
-- Clip
-- C-LONG
-- CLooP
-- Clue (Keymaker)
-- Clue (oklopol)
-- Clunk
-- COBOL
-- Cod
-- Codan
-- Colambda
-- ComeFrom
-- Come Here
-- Commercial
-- Complode
-- Con-Text
-- Condit
-- Constantinople
-- ContinuousEquation
-- Conveyor
-- Cood
-- Cork
-- Crab
-- Crainfuck
-- CRTL
-- CT
-- Ctonia
-- Cufrab
-- Cupid
-- CUTLASS
-- Cvlemar
-- Cyclic ACIDIC
-- Daft
-- DALIS
-- Dark
-- Darmok
-- DateFuck
-- DBFV!
-- DcScript
-- dd/dd
-- Deltaplex
-- Derpcode
-- Derplang
-- Deviating Percolator
-- d1ffe7e45e
-- DigFill
-- Dimensifuck
-- Dimensions
-- Dirst
-- Dis
-- Divzeros
-- DL
-- DNA#
-- DOBELA
-- DOG
-- Dogescript
-- Doorspace
-- Dot
-- DoubleFuck
-- Drainfuck
-- Drive-In Window
-- Duck Duck Goose
-- Dumbf*ck
-- DumbScript
-- DUP
-- Dupdog
-- DZZZZ
-- Easy
-- Edge
+- CHILL
+- CHIP-8
+- chomski
+- ChucK
+- CICS
+- Cilk
+- CL (IBM)
+- Claire
+- Clarion
+- Clean
+- Clipper
+- CLIST
+- Clojure
+- CLU
+- CMS-2
+- COBOL - ISO/IEC 1989
+- Cobra
+- CODE
+- CoffeeScript
+- Cola
+- ColdC
+- ColdFusion
+- COMAL
+- Combined Programming Language (CPL)
+- COMIT
+- Common Intermediate Language (CIL)
+- Common Lisp (also known as CL)
+- COMPASS
+- Component Pascal
+- Constraint Handling Rules (CHR)
+- Converge
+- Cool
+- Coq
+- Coral 66
+- Corn
+- CorVision
+- COWSEL
+- CPL
+- csh
+- CSP
+- Cryptol
+- Csound
+- CUDA
+- Curl
+- Curry
+- Cyclone
+- Cython
+- D
+- DASL (Datapoint's Advanced Systems Language)
+- DASL (Distributed Application Specification Language)
+- Dart
+- DataFlex
+- Datalog
+- DATATRIEVE
+- dBase
+- dc
+- DCL
+- Deesel (formerly G)
+- Delphi
+- DinkC
+- DIBOL
+- Dog
+- Draco
+- DRAKON
+- Dylan
+- DYNAMO
+- E
+- E#
+- Ease
+- Easy PL/I
+- Easy Programming Language
+- EASYTRIEVE PLUS
+- ECMAScript
+- Edinburgh IMP
 - EGL
-- ELANG
-- Electric BitFunk
-- Element
-- Elog
-- Emmental
-- Emo
-- Emotebatch
-- Emoticon
-- EmuBug
-- EncryptFuck
-- Enema
-- Enigma-2D
-- Eniuq
-- Entropy
-- Eodermdrome
-- EOOOL
+- Eiffel
+- ELAN
+- Elixir
+- Elm
+- Emacs Lisp
+- Emerald
+- Epigram
 - EPL
-- EPOAQ
-- ETA
-- eTalk
-- ETAS
-- Etcha
-- Everett
-- evil
-- excela
-- EXCON
-- Expload
-- Extended Foo
+- Erlang
+- es
+- Escher
+- ESPOL
+- Esterel
+- Etoys
+- Euclid
+- Euler
+- Euphoria
+- EusLisp Robot Programming Language
+- CMS EXEC (EXEC)
+- EXEC 2
+- Executable UML
 - F
-- Fackward
-- Fact
-- FakeASM
-- FALSE
-- FANJIX
-- ferNANDo
-- Figurehead
-- FileCode
-- FiM++
-- Finite Groups
-- Fishing
-- Fission
-- Fit
-- Flatline
-- Flip
-- FlogScript
-- flow_chart
-- Flump
-- Fm
-- Fob
-- Folder not to be confused with
-- Folders
-- Foo
-- Foobar and Foobaz and Barbaz, oh my!
-- Formula
-- Forobj
-- Forte
-- Fortob
-- Fortuna
-- Fourfuck
-- Fourier
-- Fractran
-- Fractran++
-- FRAK
-- Fringespeak
-- Fromage
-- Fuck4
-- Fueue
-- Fugue
-- Full 0
-- Funciton
-- Fünke
-- FURscript
-- Gammaplex
-- GASOIL
-- gecho
-- Gemooy
-- Genome
-- Geom
-- Geom++
-- Gibberish
-- Gibberish/JavaScript, another kind of Gibberish
-- Glass
-- Glypho
-- GML
-- GodScript
-- Goldfish
-- GolfScript
-- Golunar
-- Gorispace
-- Goto
-- GOTO++
-- GOTO 10
-- GrainFimple
-- GraNoLa/M
-- Grass
-- Gravity
-- Gray Snail
-- GridScript
-- Grin
-- Grits
-- Grocery List
-- Grusom Skjebne
-- Hack VM
-- Haifu
-- Half-Broken Car in Heavy Traffic
-- Hannah
-- Hanoi Love
-- HaPyLi
-- Hargfak
-- Harp
-- Hatter
-- hcbf
-- Headsecks
-- HeartForth
-- Hebe Script
-- Hello++
-- HELP
-- Hev
-- HEX
-- hexish
-- Higher Subleq
-- HighFive
-- Hollow
-- Home Row
-- Homespring
-- HSPAL
-- HSQ
-- Hunter
-- hydra
-- Hyper Set Language
-- iag
-- IDTM
-- Iexp
-- Ignition
-- IINC
-- ILLGOL
-- Immi
-- Impera
-- INCAL
-- Indirect
-- InfChessPro
-- InfiniTUM
-- Inline
-- Insomnia
-- Integral
-- INTERCAL
-- InterWater
-- Intolerant
-- Iota
-- IRC
-- Iris
-- ISCOM
-- itflabtijtslwi
-- J--
-- Jasp
-- Java2K
-- Jolverine
-- Jot
-- JSFuck
-- Jug
-- JUMP
-- JumpFuck
-- JUSTIF
-- KanjiCode
-- Karma
-- Kayak
-- Kelxquoia
-- KEMURI
-- Keya
-- KimL
-- Kipple
-- Kkipple
-- KlingonCode
-- Klon
-- Knight Shuffling Tower
-- Kolmogorov
-- K-on Fuck
-- kvikkalkul
-- Labyrinth
-- Lamb
-- Lambda
-- Lambdastack
-- Lambda: the Gathering
-- Langar.io
-- Lazy
-- Lazy Bird
-- Lazy K
-- LecRAM
-- l33t
-- Lenta
-- Leszek
-- Lhooq
-- Libertas
-- LICE
-- Ligature Machine
-- Light Pattern
-- Lii
-- Limp
-- Linguine
-- Liquid
-- LLL
-- LNUSP
-- LOCK
-- Logical
-- LOLA
-- LOLCODE
-- L00P
-- Loose Circular Brainfuck (LCBF)
-- Lo'reran
-- Luigi
-- Macmac
-- Madbrain
-- Madness
-- Magenta
-- Magic
-- Magicard!
-- MagiStack
-- MailBox
-- Malbolge
-- Malbolge Unshackled
-- Mang
-- Manufactoria
-- MarioLANG
-- Mascarpone
-- Maze
-- McCulloch's second machine
-- McCulloch's third machine
-- M-code
-- MDPN
-- MechaniQue
-- Memfractal
-- Memfuck
-- memPanic
-- Meq
-- Metropolis
-- MIBBLLII
-- Mice in a maze
-- Microscript
-- Migol
-- Mimsy
-- mindfunc
-- Mineso
-- Minifuck
-- Minifuck-2D
-- Minimal
-- Minimal-2D
-- MiniMAX
-- MinISCule
-- miniUSPL
-- Minks
-- Minus
-- MISC
-- MISC-x86
-- MKBL-LN
-- Mmmm()
-- MNNBFSL
-- Mobius
-- ModanShogi
-- MonkeyCode
-- Monkeys
-- MONOD
-- Mornington Crescent
+- F#
+- Factor
+- Falcon
+- Fantom
+- FAUST
+- FFP
+- Fjölnir
+- FL
+- Flavors
+- Flex
+- FLOW-MATIC
+- FOCAL
+- FOCUS
+- FOIL
+- FORMAC
+- @Formula
+- Forth
+- Fortran - ISO/IEC 1539
+- Fortress
+- FoxBase
+- FoxPro
+- FP
+- FPr
+- Franz Lisp
+- Frege
+- F-Script
+- G
+- Google Apps Script
+- Game Maker Language
+- GameMonkey Script
+- GAMS
+- GAP
+- G-code
+- Genie
+- GDL
+- GJ
+- GEORGE
+- GLSL
+- GNU E
+- GM
+- Go
+- Go!
+- GOAL
+- Gödel
+- Godiva
+- GOM (Good Old Mad)
+- Goo
+- Gosu
+- GOTRAN
+- GPSS
+- GraphTalk
+- GRASS
+- Groovy
+- Hack (programming language)
+- HAL/S
+- Hamilton C shell
+- Harbour
+- Hartmann pipelines
+- Haskell
+- Haxe
+- High Level Assembly
+- HLSL
+- Hop
+- Hope
+- Hugo
+- Hume
+- HyperTalk
+- IBM Basic assembly language
+- IBM HAScript
+- IBM Informix-4GL
+- IBM RPG
+- ICI
+- Icon
+- Id
+- IDL
+- Idris
+- IMP
+- Inform
+- Io
+- Ioke
+- IPL
+- IPTSCRAE
+- ISLISP
+- ISPF
+- ISWIM
+- J
+- J#
+- J++
+- JADE
+- Jako
+- JAL
+- Janus
+- JASS
+- Java
+- JavaScript
+- JCL
+- JEAN
+- Join Java
+- JOSS
+- Joule
+- JOVIAL
+- Joy
+- JScript
+- JScript .NET
+- JavaFX Script
+- Julia
+- Jython
+- K
+- Kaleidoscope
+- Karel
+- Karel++
+- KEE
+- Kixtart
+- Klerer-May System
+- KIF
+- Kojo
+- Kotlin
+- KRC
+- KRL
+- KRL (KUKA Robot Language)
+- KRYPTON
+- ksh
+- L
+- L# .NET
+- LabVIEW
+- Ladder
+- Lagoona
+- LANSA
+- Lasso
+- LaTeX
+- Lava
+- LC-3
+- Leda
+- Legoscript
+- LIL
+- LilyPond
+- Limbo
+- Limnor
+- LINC
+- Lingo
+- Linoleum
+- LIS
+- LISA
+- Lisaac
+- Lisp - ISO/IEC 13816
+- Lite-C
+- Lithe
+- Little b
+- Logo
+- Logtalk
+- LotusScript
+- LPC
+- LSE
+- LSL
+- LiveCode
+- LiveScript
+- Lua
+- Lucid
+- Lustre
+- LYaPAS
+- Lynx
+- M2001
+- M4
+- M#
+- Machine code
+- MAD (Michigan Algorithm Decoder)
+- MAD/I
+- Magik
+- Magma
+- make
+- Maple
+- MAPPER now part of BIS
+- MARK-IV now VISION:BUILDER
+- Mary
+- MASM Microsoft Assembly x86
+- Mathematica
+- MATLAB
+- Maxima (see also Macsyma)
+- Max (Max Msp - Graphical Programming Environment)
+- MaxScript internal language 3D Studio Max
+- Maya (MEL)
+- MDL
+- Mercury
+- Mesa
+- Metacard
+- Metafont
+- Microcode
+- MicroScript
+- MIIS
+- MillScript
+- MIMIC
+- Mirah
+- Miranda
+- MIVA Script
+- ML
+- Moby
+- Model 204
+- Modelica
+- Modula
+- Modula-2
+- Modula-3
+- Mohol
+- MOO
+- Mortran
 - Mouse
-- MSG
-- MSM
-- MuFuck
-- MUMON
-- Muriel
-- Musical notes
-- Musical-X
-- Muxcomp
-- Mycelium
-- Myth
-- My Unreliable Past
-- Nandarin
-- Nandypants
-- NegaPosi
-- Nest
-- NetFuck
-- Network Headache
-- Neurosis
-- Nevermore
-- Nhohnhehr
-- Niblet
-- NICE
-- Nietzsche
-- Noisett
-- noit o' mnain worb
-- Nonsense Query Lists
-- Noobinary
-- Noodle Soup
-- Norfuck
-- Nothing
-- Not The Main Worb
-- nouse
-- Novice
-- Nqubl
-- NRSRSSOMN
-- NSFW
-- NTCM
-- NucleotideBF (nBF)
-- NULL
-- Numberix
-- Numberwang
-- Numeric Batch
-- Numeric Topline
-- Numobin
-- NUMPAD
-- Nybbleist
-- O
-- Obfuna
-- Object (programming language)
-- Object disoriented
-- Object oriented thue
-- ObjectPar
-- ODDBALL
-- Odtizuda
-- OGEL
-- OISC
-- Omam
-- Omegaplex
-- Omgrofl
-- onoz
-- Oof!
-- Oozlybub and Murphy
-- Optimism
-- Ora
-- ORK
-- Oroogu
-- Orthagonal
-- OrthINTERCAL
-- Orthogonal
-- Owhelgossip
-- Owk
-- Owl
-- Ozone
-- P
+- MPD
+- MSIL - deprecated name for CIL
+- MSL
+- MUMPS
+- Mystic Programming Language (MPL)
+- NASM
+- NATURAL
+- Napier88
+- Neko
+- Nemerle
+- nesC
+- NESL
+- Net.Data
+- NetLogo
+- NetRexx
+- NewLISP
+- NEWP
+- Newspeak
+- NewtonScript
+- NGL
+- Nial
+- Nice
+- Nickle
+- Nim
+- NPL
+- Not eXactly C (NXC)
+- Not Quite C (NQC)
+- NSIS
+- Nu
+- NWScript
+- NXT-G
+- o:XML
+- Oak
+- Oberon
+- OBJ2
+- Object Lisp
+- ObjectLOGO
+- Object REXX
+- Object Pascal
+- Objective-C
+- Objective-J
+- Obliq
+- OCaml
+- occam
+- occam-π
+- Octave
+- OmniMark
+- Onyx
+- Opa
+- Opal
+- OpenCL
+- OpenEdge ABL
+- OPL
+- OPS5
+- OptimJ
+- Orc
+- ORCA/Modula-2
+- Oriel
+- Orwell
+- Oxygene
+- Oz
 - P′′
-- P1eq
-- Paintfuck
-- Paintfuck+
-- Pancake Stack
-- Parenthesis Hell
-- Parenthetic
-- Parnassus
-- PATH
-- Pavia
-- pax
-- pb
-- pbrain
+- P#
+- ParaSail (programming language)
+- PARI/GP
+- Pascal - ISO 7185
+- PCASTL
+- PCF
+- PEARL
+- PeopleCode
 - Perl
-- Perligata
-- Petrovich
-- PHAWN
-- Philosophy Script
-- PHL 1.0
-- Pi
-- Pieces
-- Piet
-- Piet-Q
-- PingPong
-- Pinocchio
-- Pirandello
-- Pit
-- Platts
-- Please Porige Hot
-- Pluso
-- POGA-INTERCAL
-- PoGo
-- PointerB
-- PointerTape
-- Pointy
-- Poison
-- Polynomial
-- Poochiewuddledumpling-Boobledarling
-- Portia
-- Powerlist
-- PREFIX
-- Prelude
-- ProgFk
-- PROLAN/M
-- Proof
-- PureStack
-- Puzzlang
-- Pyth
-- PZAB
-- Q-Bal
-- Qdeql
-- QFL
-- Q-Ref
-- Quantum brainfuck
-- Quantum Dimensions
-- QUATRE-CALC
-- Qugord
-- Quiney
-- Quipu
-- QUOTE
-- Quylthulg
-- Qwertycode
-- Qwerty Reverse Polish Notation
-- Radixal!!!!
-- Ragaraja
-- RAGE!!!
-- Rail
-- RAND
-- Rand.Next()
-- Random
-- Rasen
-- RCEM
-- ReactionCan
-- Real Fast Nora's Hair Salon 3: Shear Disaster Download
-- Reaper
-- REBEL
-- Recurse
-- RecurseMe
+- PDL
+- Perl6
+- PHP
+- Phrogram
+- Pico
+- Picolisp
+- Pict
+- Pike
+- PIKT
+- PILOT
+- Pipelines
+- Pizza
+- PL-11
+- PL/0
+- PL/B
+- PL/C
+- PL/I - ISO 6160
+- PL/M
+- PL/P
+- PL/SQL
+- PL360
+- PLANC
+- Plankalkül
+- Planner
+- PLEX
+- PLEXIL
+- Plus
+- POP-11
+- PostScript
+- PortablE
+- Powerhouse
+- PowerBuilder - 4GL GUI appl. generator from Sybase
+- PowerShell
+- PPL
+- Processing
+- Processing.js
+- Prograph
+- PROIV
+- Prolog
+- PROMAL
+- Promela
+- PROSE modeling language
+- PROTEL
+- ProvideX
+- Pro*C
+- Pure
+- Python
+- Q (equational programming language)
+- Q (programming language from Kx Systems)
+- Qalb
+- QtScript
+- QuakeC
+- QPL
+- R
+- R++
+- Racket
+- RAPID
+- Rapira
+- Ratfiv
+- Ratfor
+- rc
+- REBOL
+- Red
 - Redcode
-- REDGREEN
-- Refract
-- RegexPL
-- REGXY
-- reMorse
-- rename
-- Replace
-- Replacefuck
-- REsKrIb!lo
-- RESOL
-- ResPlicate
-- ReThue
-- Retina
-- RETURN
-- Revaver
-- Revaver2pi
-- REVER
-- REverge
-- REVERSE
-- Reversible-2D
-- Reversible Brainfuck
-- Revomer
-- rflct
-- RFOL
-- Rhotor
-- RingCode
-- RinGy
-- Ririsu
-- RISBF
-- rLS
-- RNA
-- Roco
-- Rotary
-- RPOS
-- RSSB
-- RU
-- RUBE
-- RubE On Conveyor Belts
-- RUM
-- RunR
-- RWLR
-- SADOL
-- Sally
-- Sansism
-- Sbeezg
-- SCAB computer
-- Sceql
-- Sclipting
-- Scrip7
-- ScripTur
-- SCRUBS4U
-- Selector
-- Self-modifying Brainfuck
-- Self-modifying Puzzlang
-- Semi-quantum
-- SendStuff
-- Ser2
-- SGMJQFuck
-- Shakell
-- Shakespeare
-- Shelta
-- Shoopuf
-- Shove
-- Simplefunge
-- Single Four
-- Skull
-- Skull+
-- Slash-01
-- Smallfuck
-- small s.c.r.i.p.t.
-- SMATINY
-- SMETANA
-- SMIL
-- Smilefuck
-- SMITH
-- SMITH#
-- SMITHb
-- Smu
-- Smurf
-- Snack
-- Snowflake
-- Snowman
-- SNUSP
-- SockZ
-- Somnypna
-- Sonata
-- SON-OF-UNBABTIZED
-- SORTA
-- Sorted!
-- Sortle
-- SoT
-- Spaghetti
-- SPAM/1
-- Spaz
-- Spiral
-- SPL
-- Splinter
-- Spoon
-- Spyrodecimal
-- Sqirrel - Peter
-- SQRT
-- Squishy2K
-- SSBPL
-- StackBeat
-- StackFlow
-- Stacking
-- Stackmill
-- Stackstack
-- StackStacks
-- StaPLe
-- Staq
-- Stasis
-- StateFlip
-- Stlang
-- Stlisp
-- Strato
-- Strelnokoff
-- Stue
-- STXTRM
-- Subleq
-- Subskin
-- Subtle cough
-- Suffolk
-- suicide
-- Sultan's daughter
-- SumaMoito
-- SuperPar
-- Super Stack!
-- Surface
-- Suxesol
-- Suzy
-- SVM
-- Switchy
-- SYCPOL
-- SyL
-- Symesol
-- SynDev
-- Table
-- Tag
-- Taktentus
-- Tamerlane
-- TAPASM
-- TapeBagel
-- Taxi
-- tbf
-- Tedius
-- TempoVar
-- Terse
-- Tg
-- Th
-- thaM
-- TheSquare
-- thETA
-- This=That
-- This=That 2.0
-- THRAT
-- Threaded INTERCAL
-- Thubi
-- Thue
-- Thutu
-- timefuck
-- Time Out
-- Tiny
-- tinyBF
-- TLWNN
-- TMCB
-- TMMLPTEALPAITAFNFAL
-- Toadskin
-- TOD
-- Toi
-- Tonoco
-- Topline
-- Tory
-- Track
-- TRANSCRIPT
-- Tree
-- Tri
-- Triforce
-- Trigger
-- TriINTERCAL
-- Triskaidekalogophilia
-- Trite
-- Troupe
-- True
-- TScript
-- tuplary
-- Turing Script
-- Tweak
-- Twimp
-- TWiRQ
-- Twocode
-- TwoDucks
-- Two Fifty Six
-- TwoStep
-- Udage
-- Ultimate Programming Language to Take Over a Prison, Then He World
-- UM-32
-- UNBABTIZED
-- Unc
-- Uncomment
-- Underload
-- Unispace
-- Univar
-- Unlambda
-- Unreadable
-- URSL
-- V
-- V--
-- var'aq
-- Varsig
-- VD3
-- Velato
-- Verbose
-- Versert
-- Version
-- Version2
-- Vertica Smile
-- Vigil
-- Villmark
-- Virgo
-- VIOLET
-- vowels
-- Vrejvax
-- VTL
-- Waduzitdo
-- Wait
-- Wake
-- WARP
-- WASD
-- Wct
-- Weave
-- Wheat
-- When
-- Whenever
-- Whirl
-- Whitespace
-- Who
-- Wierd
-- Wigner's Fuckbuddy Is A (|Top> + |Bottom>)/√2
-- Wiki
-- Wiki Cyclic Tag
-- Wikiplia
-- WILSON
-- Wittgen
-- Word!CPU
-- Wordfuck
-- Wordy
-- WTFZOMFG
-- Wunnel
-- WUUI
+- REFAL
+- Reia
+- Revolution
+- rex
+- REXX
+- Rlab
+- RobotC
+- ROOP
+- RPG
+- RPL
+- RSL
+- RTL/2
+- Ruby
+- RuneScript
+- Rust
+- S
+- S2
+- S3
+- S-Lang
+- S-PLUS
+- SA-C
+- SabreTalk
+- SAIL
+- SALSA
+- SAM76
+- SAS
+- SASL
+- Sather
+- Sawzall
+- SBL
+- Scala
+- Scheme
+- Scilab
+- Scratch
+- Script.NET
+- Sed
+- Seed7
+- Self
+- SenseTalk
+- SequenceL
+- SETL
+- SIMPOL
+- SIGNAL
+- SiMPLE
+- SIMSCRIPT
+- Simula
+- Simulink
+- SISAL
+- SLIP
+- SMALL
+- Smalltalk
+- Small Basic
+- SML
+- Snap!
+- SNOBOL(SPITBOL)
+- Snowball
+- SOL
+- Span
+- SPARK
+- Speedcode
+- SPIN
+- SP/k
+- SPS
+- SQR
+- Squeak
+- Squirrel
+- SR
+- S/SL
+- Stackless Python
+- Starlogo
+- Strand
+- Stata
+- Stateflow
+- Subtext
+- SuperCollider
+- SuperTalk
+- Swift (Apple programming language)
+- Swift (parallel scripting language)
+- SYMPL
+- SyncCharts
+- SystemVerilog
+- T
+- TACL
+- TACPOL
+- TADS
+- TAL
+- Tcl
+- Tea
+- TECO
+- TELCOMP
+- TeX
+- TEX
+- TIE
+- Timber
+- TMG, compiler-compiler
+- Tom
+- TOM
+- TouchDevelop
+- Topspeed
+- TPU
+- Trac
+- TTM
+- T-SQL
+- TTCN
+- Turing
+- TUTOR
+- TXL
+- TypeScript
+- Turbo C++
+- Ubercode
+- UCSD Pascal
+- Umple
+- Unicon
+- Uniface
+- UNITY
+- Unix shell
+- UnrealScript
+- Vala
+- VBA
+- VBScript
+- Verilog
+- VHDL
+- Visual Basic
+- Visual Basic .NET
+- Visual DataFlex
+- Visual DialogScript
+- Visual Fortran
+- Visual FoxPro
+- Visual J++
+- Visual J#
+- Visual Objects
+- Visual Prolog
+- VSXu
+- Vvvv
+- WATFIV, WATFOR
+- WebDNA
+- WebQL
+- Windows PowerShell
+- Winbatch
+- Wolfram
+- Wyvern
 - X++
-- XBF
-- x-D
-- Xigxag
-- XRF
-- XS
-- XSM
-- X.so
-- Y
-- YABALL
-- Yboy
-- Yellow Four Code
-- You are Reading the Name of this Esolang
-- Ypsilax
-- Zetaplex
-- Ziim
-- ZOMBIE
-- Zot
-- ZOWIE
-- ZT
-- Zucchini
-- ZZZ
+- X#
+- X10
+- XBL
+- XC (exploits XMOS architecture)
+- xHarbour
+- XL
+- Xojo
+- XOTcl
+- XPL
+- XPL0
+- XQuery
+- XSB
+- XSLT - See XPath
+- Xtend
+- Yorick
+- YQL
+- Z notation
+- Zeno
