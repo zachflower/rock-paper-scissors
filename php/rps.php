@@ -14,14 +14,14 @@ while ( true ) {
 
   // get player move, must be valid
   do {
-    echo("Rock, Paper, or Scissors? ");
+    echo("Your Move: ");
 
     $human_move = strtolower(trim(fgets( STDIN )));
   } while ( !in_array($human_move, $choices) );
 
   // calculate winner
   if ( $human_move == $computer_move ) {
-    echo("Tie!\n");
+    echo("Tie, Replay!\n");
   } else if ( $choices[$human_move] == $computer_move ) {
     echo("Human Wins!\n");
     break;

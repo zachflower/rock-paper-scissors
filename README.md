@@ -426,6 +426,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - Nickle
 - Nim
 - NPL
+- ~~Node.js~~
 - Not eXactly C (NXC)
 - Not Quite C (NQC)
 - NSIS
@@ -474,7 +475,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - Perl
 - PDL
 - Perl6
-- PHP
+- ~~PHP~~
 - Phrogram
 - Pico
 - Picolisp
