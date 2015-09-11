@@ -13,5 +13,5 @@ php rps.php
 
 ## Note
 
-It is assumed that you already have Node.js installed. If you need help getting
-Node.js installed, head on over to http://php.net/.
+It is assumed that you already have PHP installed. If you need help getting
+PHP installed, head on over to http://php.net/.
