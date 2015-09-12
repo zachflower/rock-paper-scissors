@@ -58,7 +58,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - Axum
 - B
 - Babbage
-- Bash
+- ~~Bash~~
 - BASIC
 - bc
 - BCPL
@@ -76,7 +76,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - Bourne shell (including bash and ksh)
 - BREW
 - BPEL
-- C
+- ~~C~~
 - C--
 - C++ - ISO/IEC 14882
 - C# - ISO/IEC 23270
@@ -549,7 +549,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - RPL
 - RSL
 - RTL/2
-- Ruby
+- ~~Ruby~~
 - RuneScript
 - Rust
 - S

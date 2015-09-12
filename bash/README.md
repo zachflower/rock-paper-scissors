@@ -1,11 +1,11 @@
-# Rock, Paper, Scissors (BASH)
+# Rock, Paper, Scissors (Bash)
 
-This is an implementation of a simple rock, paper, scissors app in BASH.
+This is an implementation of a simple rock, paper, scissors app in Bash.
 
 ## Installation
 
-BASH is built into both \*NIX and OSX operating systems. If you need help
-getting BASH installed onto Windows, check out https://www.cygwin.com/.
+Bash is built into both \*NIX and OSX operating systems. If you need help
+getting Bash installed onto Windows, check out https://www.cygwin.com/.
 
 ## Compilation
 
