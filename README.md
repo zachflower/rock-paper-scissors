@@ -236,7 +236,7 @@ Creating a rock, paper, scissors game in a different programming language, every
 - GLSL
 - GNU E
 - GM
-- Go
+- ~~Go~~
 - Go!
 - GOAL
 - Gödel
