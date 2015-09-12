@@ -41,6 +41,8 @@ are trying to adhere pretty strictly to with each implementation:
   means an infinite loop.
 - In command line applications, unless explicitly impossible due to language
   constraints, the user input dialog should be inline with input prompt.
+- Unless it is absolutely, 100% necessary, do not use third party libraries or
+  packages. Try to use standard libraries whenever possible.
 
 ### README
 
