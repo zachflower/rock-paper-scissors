@@ -4,7 +4,7 @@ This is an implementation of a simple rock, paper, scissors app in Go.
 
 ## Installation
 
-If you need help getting PHP installed, head on over to [https://golang.org/](https://golang.org/).
+If you need help getting Go installed, head on over to [https://golang.org/](https://golang.org/).
 
 ## Compilation
 
