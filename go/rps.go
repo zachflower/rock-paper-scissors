@@ -33,7 +33,8 @@ func main() {
       computerMove = "scissors"
     }
 
-    fmt.Println("Your move: ")
+    fmt.Print("Your move: ")
+
     // get player move and lowercase
     fmt.Scanf("%s", &humanMove)
     humanMove = strings.ToLower(humanMove)
@@ -45,7 +46,7 @@ func main() {
       if ( humanMove == computerMove ) {
         fmt.Println("Tie, Replay!\n")
       } else if ( choices[humanMove] == computerMove ) {
-        fmt.Println("Human Wins!\n")
+        fmt.Println("You Win!\n")
         break
       } else if ( choices[computerMove] == humanMove ) {
         fmt.Println("Computer Wins!\n")
