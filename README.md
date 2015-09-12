@@ -282,6 +282,7 @@ a resource explaining) how to install, compile, and run the source.
 - GJ
 - GEORGE
 - GLSL
+- GNAT .NET
 - GNU E
 - GM
 - ~~Go~~
@@ -453,6 +454,7 @@ a resource explaining) how to install, compile, and run the source.
 - MSIL - deprecated name for CIL
 - MSL
 - MUMPS
+- MySQL
 - Mystic Programming Language (MPL)
 - NASM
 - NATURAL
