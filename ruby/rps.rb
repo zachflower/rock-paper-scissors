@@ -9,7 +9,7 @@ choices = {
 # play until someone wins
 while true
 
-  print "Your move: \n"
+  print "Your move: "
 
   # calculate computer move
   computerMove = choices.keys[rand(choices.length)]
@@ -22,7 +22,7 @@ while true
       # play until someome wins
       print "Tie, Replay!\n"
     elsif choices[humanMove] == computerMove
-      print "Human Wins!\n"
+      print "You Win!\n"
       break
     elsif choices[computerMove] == humanMove
       print "Computer Wins!\n"

@@ -43,12 +43,12 @@ func main() {
 
       // calculate winner
       if ( humanMove == computerMove ) {
-        fmt.Println("Tie, Replay!\n")
+        fmt.Println("Tie, Replay!")
       } else if ( choices[humanMove] == computerMove ) {
-        fmt.Println("You Win!\n")
+        fmt.Println("You Win!")
         break
       } else if ( choices[computerMove] == humanMove ) {
-        fmt.Println("Computer Wins!\n")
+        fmt.Println("Computer Wins!")
         break
       }
     }
