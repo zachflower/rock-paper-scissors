@@ -532,9 +532,8 @@ a resource explaining) how to install, compile, and run the source.
 - PCF
 - PEARL
 - PeopleCode
-- Perl
+- ~~Perl~~
 - PDL
-- Perl6
 - ~~PHP~~
 - Phrogram
 - Pico
