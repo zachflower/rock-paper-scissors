@@ -34,11 +34,14 @@ func main() {
     }
 
     fmt.Println("Your move: ")
+    // get player move and lowercase
     fmt.Scanf("%s", &humanMove)
-
     humanMove = strings.ToLower(humanMove)
 
+    // player move must be valid
     if (choices[humanMove] != "") {
+
+      // calculate winner
       if ( humanMove == computerMove ) {
         fmt.Println("Tie, Replay!\n")
       } else if ( choices[humanMove] == computerMove ) {
