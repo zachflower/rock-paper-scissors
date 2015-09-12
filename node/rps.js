@@ -20,12 +20,12 @@ process.stdin.on('data', function (input) {
   if ( typeof choices[human_move] !== 'undefined' ) {
     if ( human_move == computer_move ) {
       // play until someome wins
-      console.log("Tie, Replay!");
+      console.log("Tie, Replay!\n");
     } else if ( choices[human_move] == computer_move ) {
-      console.log("Human Wins!");
+      console.log("You Win!\n");
       process.exit();
     } else if ( choices[computer_move] == human_move ) {
-      console.log("Computer Wins!");
+      console.log("Computer Wins!\n");
       process.exit();
     }
   }
