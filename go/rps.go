@@ -20,10 +20,9 @@ func main() {
     var humanMove string
     var computerMove string
 
-    // Random numbers are deterministic in Go, use time to produce a different number each time. https://gobyexample.com/random-numbers
-    s1 := rand.NewSource(time.Now().UnixNano())
-    r1 := rand.New(s1)
-    num := r1.Intn(3)
+    // Seed random number generator. https://gobyexample.com/random-numbers
+    r := rand.New(rand.NewSource(time.Now().UnixNano()))
+    num := r.Intn(3)
 
     if (num == 0) {
       computerMove = "rock"
