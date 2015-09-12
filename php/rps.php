@@ -23,7 +23,7 @@ while ( true ) {
   if ( $human_move == $computer_move ) {
     echo("Tie, Replay!\n");
   } else if ( $choices[$human_move] == $computer_move ) {
-    echo("Human Wins!\n");
+    echo("You Win!\n");
     break;
   } else if ( $choices[$computer_move] == $human_move ) {
     echo("Computer Wins!\n");
