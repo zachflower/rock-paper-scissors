@@ -33,10 +33,10 @@ while true; do
   # calculate winner
   if [ $human_move == $computer_move ]; then
     echo "Tie, Replay!\n"
-  elif [ ${choices[$human_move]} == ${beats[$computer_move]} ]; then
+  elif [ ${beats[$human_move]} == ${choices[$computer_move]} ]; then
     echo "You Win!\n"
     break
-  elif [ ${choices[$computer_move]} == ${beats[$human_move]} ]; then
+  elif [ ${beats[$computer_move]} == ${choices[$human_move]} ]; then
     echo "Computer Wins!\n"
     break
   fi
