@@ -3,6 +3,14 @@
 Creating a rock, paper, scissors game in a different programming language...
 everyday... for all of eternity.
 
+## Resources
+
+Before we get started, special thanks to the following:
+
+- http://rosettacode.org/
+- https://esolangs.org/
+- http://stackoverflow.com/
+
 ## Dear God, Why?
 
 Because learning. S'why.
