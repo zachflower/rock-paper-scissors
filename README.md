@@ -349,7 +349,7 @@ a resource explaining) how to install, compile, and run the source.
 - Janus
 - JASS
 - Java
-- JavaScript
+- ~~JavaScript~~
 - JCL
 - JEAN
 - Join Java
