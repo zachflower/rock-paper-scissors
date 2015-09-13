@@ -14,9 +14,9 @@
 <body>
   
   <h1>Rock, Paper, or Scissors?</h1>
-  <h2>Enter choice below</h2>
+  <h2>Enter your move</h2>
   <input type="text" id="human-move">
-  <button id="move-submit" onClick="submitMove()">Shoot!</button>
+  <button onClick="submitMove()">Shoot!</button>
   <h2 id="notifier"></h2>
 
   <script>
@@ -45,9 +45,9 @@
           notifier.innerText = "Computer Wins!";
         }
       }
-    };
+    }
 
   </script>
-  
+
 </body>
 </html>
