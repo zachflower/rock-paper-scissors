@@ -271,7 +271,7 @@ a resource explaining) how to install, compile, and run the source.
 - FORMAC
 - @Formula
 - Forth
-- Fortran - ISO/IEC 1539
+- ~~Fortran~~
 - Fortress
 - FoxBase
 - FoxPro
@@ -533,6 +533,7 @@ a resource explaining) how to install, compile, and run the source.
 - PEARL
 - PeopleCode
 - ~~Perl~~
+- ~~PET BASIC~~
 - PDL
 - ~~PHP~~
 - Phrogram
