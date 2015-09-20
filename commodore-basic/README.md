@@ -1,6 +1,7 @@
-# Rock, Paper, Scissors (PET BASIC)
+# Rock, Paper, Scissors (Commodore BASIC)
 
-This is an implementation of a simple rock, paper, scissors app in PET BASIC.
+This is an implementation of a simple rock, paper, scissors app in Commodore
+BASIC.
 
 ## Installation
 
