@@ -66,7 +66,7 @@ a resource explaining) how to install, compile, and run the source.
 - ALGOL
 - AmigaE
 - Assembly
-- AppleScript
+- ~~AppleScript~~
 - Arbre
 - Argile
 - ATS
