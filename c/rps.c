@@ -1,3 +1,4 @@
+#include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,10 +15,10 @@ int main() {
   int computer_move = -1;
   int human_move = -1;
 
-  // seed random number generator
-  srand(1);
-
   while ( 1 ) {
+    // seed random number generator
+    srand(time(NULL));
+
     // calculate computer move
     computer_move = (int)(rand() % size);
 
@@ -50,7 +51,7 @@ int main() {
       puts("You Win!\n");
       break;
     } else if ( !strcmp(choices[human_move], beats[computer_move]) ) {
-      printf("Computer Wins!\n");
+      puts("Computer Wins!\n");
       break;
     }
   }
