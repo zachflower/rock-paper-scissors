@@ -82,7 +82,7 @@ a resource explaining) how to install, compile, and run the source.
 - Bracmat
 - Burlesque
 - ~~C~~
-- C++
+- ~~C++~~
 - C#
 - C1R
 - Caché ObjectScript
