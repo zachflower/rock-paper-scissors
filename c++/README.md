@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors (C)
+# Rock, Paper, Scissors (C++)
 
 This is an implementation of a simple rock, paper, scissors app in C++.
 
