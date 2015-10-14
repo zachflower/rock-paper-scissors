@@ -41,13 +41,13 @@ int main() {
 
     // calculate winner
     if ( computer_move == human_move ) {
-      cout << "Tie, Replay!\n";
+      cout << "Tie, Replay!\n\n";
       human_move = -1;
     } else if ( choices[human_move] == computer_move ) {
-      cout << "You Win!\n";
+      cout << "You Win!\n\n";
       break;
     } else if ( choices[computer_move] == human_move ) {
-      cout << "Computer Wins!\n";
+      cout << "Computer Wins!\n\n";
       break;
     }
   }
