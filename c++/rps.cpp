@@ -1,59 +1,56 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <time.h>
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <map>
+
+using namespace std;
 
 int main() {
   // map possible choices to the moves they beat
-  const char *choices[3] = {"rock", "paper", "scissors"};
-  const char *beats[3] = {"scissors", "rock", "paper"};
+  map<string, string> choices;
+  choices["rock"] = "scissors";
+  choices["paper"] = "rock";
+  choices["scissors"] = "paper";
 
-  char input[255];
+  string human_move, computer_move;
+  int size = choices.size();
 
-  int size = (int)(sizeof((choices)) / sizeof((choices[0])));
-  int k, i;
-  int computer_move = -1;
-  int human_move = -1;
+  while ( true ) {
+    // seed random number generator
+    srand(time(NULL));
 
-  // seed random number generator
-  srand(1);
-
-  while ( 1 ) {
     // calculate computer move
-    computer_move = (int)(rand() % size);
+    map<string, string>::iterator it = choices.begin();
+    advance(it, rand() % size);
+    computer_move = it->first;
 
     // get player input, must be valid
-    while ( human_move == -1 ) {
-      printf("Your Move: ");
-      scanf("%s", input);
+    cout << "Your Move: ";
+    getline(cin, human_move);
 
-      // lowercase input
-      // source: http://www.cquestions.com/2008/01/write-c-program-to-conversion-from_03.html
-      for ( i=0; i <= strlen(input); i++) {
-        if ( input[i] >= 65 && input[i] <= 90 ) {
-          input[i] = input[i] + 32;
-        }
-      }
+    // lowercase input
+    // source: https://notfaq.wordpress.com/2007/08/04/cc-convert-string-to-upperlower-case/ 
+    transform(human_move.begin(), human_move.end(), human_move.begin(), ::tolower);
 
-      // validate user input
-      for ( k = 0; k < size; k++ ) {
-        if ( !strcmp(input, choices[k]) ) {
-          human_move = k;
-        }
-      }
+    // validate user input
+    if ( choices.find(human_move) == choices.end() ) {
+      // invalid move 
+      continue;
     }
 
     // calculate winner
     if ( computer_move == human_move ) {
-      puts("Tie, Replay!\n");
+      cout << "Tie, Replay!\n";
       human_move = -1;
-    } else if ( !strcmp(beats[human_move], choices[computer_move]) ) {
-      puts("You Win!\n");
+    } else if ( choices[human_move] == computer_move ) {
+      cout << "You Win!\n";
       break;
-    } else if ( !strcmp(choices[human_move], beats[computer_move]) ) {
-      printf("Computer Wins!\n");
+    } else if ( choices[computer_move] == human_move ) {
+      cout << "Computer Wins!\n";
       break;
     }
   }
 
-  return(0);
+  return 0;
 }
