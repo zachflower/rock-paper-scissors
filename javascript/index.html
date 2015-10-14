@@ -9,8 +9,12 @@
   
   <h1>Rock, Paper, or Scissors?</h1>
   <h2>Enter your move</h2>
-  <input type="text" id="human-move">
-  <button onClick="submitMove()">Shoot!</button>
+
+  <form onSubmit="return submitMove()">
+    <input type="text" id="human-move" />
+    <button>Shoot!</button>
+  </form>
+
   <h2 id="notifier"></h2>
 
   <script src="script.js"></script>
