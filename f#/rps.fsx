@@ -1,14 +1,14 @@
 open System
 
 type Shape = 
-    | Rock = 0
-    | Paper = 1
-    | Scissors = 2
+    | rock = 0
+    | paper = 1
+    | scissors = 2
 
 let choices = 
-    [ Shape.Rock, Shape.Scissors;
-        Shape.Paper, Shape.Rock;
-        Shape.Scissors, Shape.Paper ] 
+    [ Shape.rock, Shape.scissors;
+        Shape.paper, Shape.rock;
+        Shape.scissors, Shape.paper ] 
     |> Map.ofList
 
 let rnd = System.Random()
@@ -22,7 +22,7 @@ while loop do
     let input = Console.ReadLine()
 
     if not (String.IsNullOrEmpty(input)) then
-        let parsed, humanMove = Enum.TryParse(input)
+        let parsed, humanMove = Enum.TryParse(input.ToLower())
         if parsed then
             Console.WriteLine("Computer chose " + computerMove.ToString())
             if humanMove = computerMove then
