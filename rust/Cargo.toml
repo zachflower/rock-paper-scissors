@@ -1,0 +1,7 @@
+[package]
+name = "rps-rust"
+version = "0.1.0"
+
+# Random is not part of the standard library
+[dependencies]
+rand = "0.5"
