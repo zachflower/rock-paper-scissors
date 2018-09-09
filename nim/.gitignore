@@ -1,0 +1,6 @@
+# Nim
+nimcache/
+*.swp
+
+# Project name
+rps
