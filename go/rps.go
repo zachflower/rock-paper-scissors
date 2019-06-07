@@ -1,56 +1,54 @@
 package main
 
 import (
-  "fmt"
-  "time"
-  "math/rand"
-  "strings"
+	"fmt"
+	"math/rand"
+	"strings"
+	"time"
 )
 
 func main() {
+	// Seed random number generator. https://gobyexample.com/random-numbers
+	rand.Seed(time.Now().UnixNano())
 
-  choices := map[string]string{
-    // choice : beats
-    "paper" : "rock",
-    "rock" : "scissors",
-    "scissors" : "paper",
-  }
+	var choice string
+	choices := map[int]int{
+		// choice : beats (0 -> Rock, 1 -> Paper, 2 -> Scissors)
+		1: 0,
+		0: 2,
+		2: 1,
+	}
 
-  for (true) {
-    var humanMove string
-    var computerMove string
+loop:
+	for {
+		computerMove := rand.Intn(3)
+		humanMove := -1
 
-    // Seed random number generator. https://gobyexample.com/random-numbers
-    r := rand.New(rand.NewSource(time.Now().UnixNano()))
-    num := r.Intn(3)
+		// get player move and lowercase
+		fmt.Print("Your move: ")
+		fmt.Scanf("%s\n", &choice)
+		choice = strings.ToLower(choice)
 
-    if (num == 0) {
-      computerMove = "rock"
-    } else if (num == 1) {
-      computerMove = "paper"
-    } else {
-      computerMove = "scissors"
-    }
+		if choice == "rock" {
+			humanMove = 0
+		} else if choice == "paper" {
+			humanMove = 1
+		} else if choice == "scissors" {
+			humanMove = 2
+		}
 
-    fmt.Print("Your move: ")
-
-    // get player move and lowercase
-    fmt.Scanf("%s", &humanMove)
-    humanMove = strings.ToLower(humanMove)
-
-    // player move must be valid
-    if (choices[humanMove] != "") {
-
-      // calculate winner
-      if ( humanMove == computerMove ) {
-        fmt.Println("Tie, Replay!")
-      } else if ( choices[humanMove] == computerMove ) {
-        fmt.Println("You Win!")
-        break
-      } else if ( choices[computerMove] == humanMove ) {
-        fmt.Println("Computer Wins!")
-        break
-      }
-    }
-  }
+		if humanMove != -1 {
+			// calculate winner
+			switch humanMove {
+			case computerMove:
+				fmt.Println("Tie, Replay!")
+			case choices[computerMove]:
+				fmt.Println("Computer Wins!")
+				break loop
+			default:
+				fmt.Println("You Win!")
+				break loop
+			}
+		}
+	}
 }
