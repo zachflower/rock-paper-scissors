@@ -1,35 +1,33 @@
 import random
 
 def rock_paper_scissors():
-    turn_options = ['Rock', 'Paper', 'Scissors']
+    turn_options = ['rock', 'paper', 'scissors']
 
     while True:
         
-        player_turn = input("Your turn: Choose Rock, Paper, or Scissors:") 
+        player_turn = input("your move:") 
 
         opponent_turn = random.choice(turn_options)
         if player_turn in turn_options:
-                print("You chose:", player_turn)
-            
-                print("Opponent chose:", opponent_turn)
+                print("computer chose:", opponent_turn)
             
                 if player_turn == opponent_turn:
-                    print("Tie game")
+                    print("tie, replay!")
             
-                elif player_turn == 'Paper' and opponent_turn == 'Rock':
-                    print("Player wins")
+                elif player_turn == 'paper' and opponent_turn == 'rock':
+                    print("you win!")
                     break
                 
-                elif player_turn == 'Scissors' and opponent_turn == 'Paper':
-                    print("Player wins")
+                elif player_turn == 'scissors' and opponent_turn == 'paper':
+                    print("you win!")
                     break
                 
-                elif player_turn == 'Rock' and opponent_turn == 'Scissors':
-                    print("Player wins")
+                elif player_turn == 'rock' and opponent_turn == 'scissors':
+                    print("you win!")
                     break
                 
                 else:
-                    print("Opponent wins")
+                    print("computer wins!")
                     break
 
 if __name__ == '__main__':
