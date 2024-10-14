@@ -11,7 +11,7 @@ Install Python in your editor. To install Python, head to https://www.python.org
 This is the syntax to run the file and play the Rock, Paper, Scissors game.
 
 ```
-python3 python/rps.py
+python3 rps.py
 ```
 
  

@@ -4,7 +4,9 @@ def rock_paper_scissors():
     turn_options = ['rock', 'paper', 'scissors']
 
     while True:
-        player_turn = input("Your Move:") 
+        player_turn = input("Your Move: ")
+
+        player_turn = player_turn.lower()
 
         opponent_turn = random.choice(turn_options)
 
