@@ -33,7 +33,7 @@ jobs:
 
         case ${{ matrix.language }} in
           bash)
-            bash hello.sh
+            bash rps.sh
             ;;
           c)
             make
