@@ -11,7 +11,6 @@ def rock_paper_scissors():
         opponent_turn = random.choice(turn_options)
 
         if player_turn in turn_options:
-                print("Computer Chose:", opponent_turn)
             
                 if player_turn == opponent_turn:
                     print("Tie, Replay!")
