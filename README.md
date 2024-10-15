@@ -45,12 +45,21 @@ please let us know (or submit a pull request with the changes yourself)!
 We haven't exactly established many rules, but here are some guidelines that we
 are trying to adhere pretty strictly to with each implementation:
 
-- The game should continue until either the player or the computer wins. That
-  means an infinite loop.
-- In command line applications, unless explicitly impossible due to language
-  constraints, the user input dialog should be inline with input prompt.
-- Unless it is absolutely, 100% necessary, do not use third party libraries or
-  packages. Try to use standard libraries whenever possible.
+- The game should continue until either the player or the computer wins. That means an infinite loop.
+    - The player should be able to choose between rock, paper, and scissors with any case and any leading/trailing whitespace (hint: use a case-insensitive comparison and trim the input).
+    - The computer should randomly choose between rock, paper, and scissors.
+    - The winner should be determined by the rules of the game: rock beats scissors, scissors beats paper, and paper beats rock.
+    - The player should be prompted to enter their choice by the printed message `Your Move: `.
+    - If the player enters an invalid choice, the program should repeat the prmpt until a valid choice is entered.
+    - If the player wins, the program should print `You Win!` and exit.
+    - If the computer wins, the program should print `Computer Wins!` and exit.
+    - If it's a tie, the program should print `Tie, Replay!` and continue the game.
+- Implement command line applications, unless explicitly impossible due to language constraints (i.e. CSS/HTML/Scratch/etc).
+- Unless it is absolutely, 100% necessary (it shouldn't be), do not use third-party libraries or packages. Try to use standard libraries whenever possible.
+- Every language should have a README file explaining (or at least pointing to an official resource explaining) how to install, compile, and run the source.
+- If the language is not yet represented, create a new directory with the language name in lowercase and add your implementation there (i.e. `c/`, `python/`, `ruby/`, etc).
+- If the language is already represented, add your implementation to the existing directory.
+- All implementations should be in the form of a single file named `rps.ext`, where `ext` is the file extension for the language. If the language does not have a standard file extension, use the most common one.
 
 ### README
 
