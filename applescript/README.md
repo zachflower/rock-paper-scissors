@@ -9,7 +9,7 @@ OS.
 
 ## Compilation
 
-No complication is necessary.
+No compilation is necessary.
 
 ## Syntax
 
